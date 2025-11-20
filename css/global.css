@@ -1,0 +1,76 @@
+body {
+    background-color: #17292d;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: auto;
+    margin: 50px;
+    text-align: justify;
+}
+
+nav, footer {
+    text-align: center;
+    background-color: #b19d67;
+    text-transform: uppercase;
+    color: black;
+    
+}
+
+p {
+    font-size: larger;    
+}
+
+.fotoLogo {
+    width: 25%;
+}
+
+.logo {
+    background-color: #b19d67;
+    text-align: center;
+}
+
+.linksHeader {
+    color: black;
+}
+
+.linksHeader:hover, .fotoLogo:hover{
+    display: inline-block;
+    transform: scale(1.1);
+    transition: 0.2s linear;
+    color: aliceblue;
+}
+
+#portada {
+    text-align: center;
+}
+
+#fotoPortada {
+    width: 50%;
+}
+
+.fuente {
+  font-family: "Darker Grotesque", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+h1 {
+    font-size: xxx-large;
+}
+
+h2 {
+    font-size: xx-large;
+}
+
+h3 {
+    font-size: x-large;
+}
+
+.colorLinks {
+    color: #b19d67;
+}

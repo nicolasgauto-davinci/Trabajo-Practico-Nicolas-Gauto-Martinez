@@ -1,0 +1,9 @@
+#evento{
+    height: 500px;
+}
+
+.fotoEvento {
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}

@@ -1,0 +1,21 @@
+.escenas {
+    float: right;
+    height: 120px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.trailer{
+    display: flex;
+    justify-content: center; 
+}
+
+.ultimaTemporada{
+    background-image: url(../img/fondo\ demonio.gif);
+    background-size: auto;
+    background-repeat: round;
+}
+
+.resaltado{
+    background-color: #17292d;
+}

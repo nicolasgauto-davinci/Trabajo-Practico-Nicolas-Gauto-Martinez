@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+
+form{
+    text-align: left;
+    width: 50%;
+    margin: 0 auto;
+    input{
+        width: 100%;
+        padding: 8px;
+    }
+    input[type=submit]{ /*no recuerdo si lo vimos en clase, porlas dejo el link donde encontre como hacerlo https://www.w3schools.com/css/css_form.asp*/
+        display: block;
+        margin: auto;
+        width: 99%;
+    }
+    fieldset{
+        padding: 10px;
+        max-width: 100%;
+        label{
+           border-top: 50px; 
+        }
+        textarea{
+            min-width: 100%;
+            max-width: 100%;
+            height: 150px;
+            resize: vertical;
+        }
+    }
+}
+
+#textoContactanos{
+    text-align: center;
+    font-size: xx-large;
+}
+

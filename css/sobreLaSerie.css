@@ -1,0 +1,21 @@
+.posicionFotos {
+    float: right;
+    margin-left: 20px;
+}
+
+.columnaDerecha{
+    width: 200%;
+    margin-top: 4%;
+    iframe, img{
+        width: 100%;
+    }
+    #fotoCraneo{
+        margin-top: 10px;
+    }
+}
+
+.seccionSinopsis{
+    display: flex;
+    gap: 30px;
+}
+
