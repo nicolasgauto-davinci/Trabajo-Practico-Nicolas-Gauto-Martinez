@@ -1,6 +1,5 @@
 .gridPersonajes{
-    max-height: 378px;
-    max-width: 346px;
+    max-width: 28%;
     display: grid;
     grid-template-columns: 1.4fr 1fr 1.8fr;
     grid-template-rows: 1.4fr 1.13fr 1.36fr;
