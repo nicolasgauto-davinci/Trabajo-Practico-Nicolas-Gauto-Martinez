@@ -14,3 +14,19 @@
 ul {
     font-size: larger;
 }
+
+@media (width <= 500px){
+    h2{
+        text-align: center;
+    }
+
+    h3, li{
+        text-align: left;
+    }
+}
+
+@media (500px < width < 1024px){
+    h3,li{
+        text-align: left;
+    }
+}

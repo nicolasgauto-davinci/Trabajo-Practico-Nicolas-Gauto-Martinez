@@ -12,16 +12,17 @@ main {
     text-align: justify;
 }
 
-nav, footer {
+nav,
+footer {
     text-align: center;
     background-color: #b19d67;
     text-transform: uppercase;
     color: black;
-    
+
 }
 
 p {
-    font-size: larger;    
+    font-size: larger;
 }
 
 .fotoLogo {
@@ -37,7 +38,13 @@ p {
     color: black;
 }
 
-.linksHeader:hover, .fotoLogo:hover{
+.primeraFila {
+    display: flex;
+    justify-content: space-between;
+}
+
+.linksHeader:hover,
+.fotoLogo:hover {
     display: inline-block;
     transform: scale(1.1);
     transition: 0.2s linear;
@@ -46,17 +53,19 @@ p {
 
 #portada {
     text-align: center;
+    position: relative;
 }
 
 #fotoPortada {
-    width: 50%;
+    position: absolute;
+    height: 100%;
 }
 
 .fuente {
-  font-family: "Darker Grotesque", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 900;
-  font-style: normal;
+    font-family: "Darker Grotesque", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
 }
 
 h1 {
@@ -73,4 +82,34 @@ h3 {
 
 .colorLinks {
     color: #b19d67;
+}
+
+/*Cambios para el celu, cuando el viewport sea de 500 o menor*/
+@media (width <= 500px) {
+    .fotoLogo {
+        width: 60%;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .primeraFila {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #fotoPortada {
+        position: static;
+        width: 100%;
+    }
+}
+
+@media (500px < width < 1024px){
+    .fotoLogo {
+        width: 50%;
+    }
+    h1{
+        text-align: left;
+    }
 }

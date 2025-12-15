@@ -1,8 +1,17 @@
-#evento{
-    height: 70vh;
+@media(width >=1024px) {
+    #evento {
+        height: 70vh;
+    }
+
+    .fotoEvento {
+        float: right;
+        margin-left: 3vh;
+    }
 }
 
-.fotoEvento {
-    float: right;
-    margin-left: 3vh;
+/* Aplica lo mismo para tablet y celu */
+@media(width < 1024px){
+    #evento{
+        width: 100%;
+    }
 }

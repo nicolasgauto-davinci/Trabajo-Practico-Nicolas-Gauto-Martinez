@@ -1,21 +1,47 @@
-.escenas {
-    float: right;
-    max-height: 25vh;
-    margin-left: 3vh;
-    margin-top: 3vh;
-}
-
-.trailer{
+.trailer {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
 }
 
-.ultimaTemporada{
+.ultimaTemporada {
     background-image: url(../img/fondo\ demonio.gif);
     background-size: auto;
     background-repeat: round;
 }
 
-.resaltado{
+.resaltado {
     background-color: #17292d;
+}
+
+@media (width <=500px) {
+    h3 {
+        text-align: left;
+    }
+
+    .escenas {
+        max-width: 100%;
+        justify-content: center;
+    }
+}
+
+@media (500px < width < 1024px) {
+    .escenas {
+        float: right;
+        height: 25vh;
+        margin-left: 3vh;
+        margin-top: 3vh;
+    }
+    
+    h3 {
+        text-align: left;
+    }
+}
+
+@media (width >=1024px) {
+    .escenas {
+        float: right;
+        height: 25vh;
+        margin-left: 3vh;
+        margin-top: 3vh;
+    }
 }
