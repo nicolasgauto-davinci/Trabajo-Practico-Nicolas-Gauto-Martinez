@@ -1,23 +1,23 @@
 .fotoConfirmacion{  
     display: block;
     margin: 0 auto;
-    margin-bottom: 20px;
+    margin-bottom: 3vh;
 }
 
 .textoConfirmacion{
     text-align: center;
     font-size: xx-large;
-    margin-bottom: 20px;
-    margin-top: -30px;
+    margin-bottom: 3vh;
+    margin-top: -5vh;
 }
 
 .linkConfirmacion{
     display: block;
     text-align: center;
     margin: 0 auto;
-    margin-bottom: 10px;
+    margin-bottom: 1.5vh;
     border: solid;
-    padding: 10px;
+    padding: 1.5vh;
     max-width: 50%;
     color: white;
     background-color: black;

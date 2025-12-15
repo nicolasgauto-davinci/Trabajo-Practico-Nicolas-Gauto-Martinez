@@ -1,6 +1,6 @@
 .posicionFotos {
     float: right;
-    margin-left: 20px;
+    margin-left: 3vh;
 }
 
 .columnaDerecha{
@@ -10,12 +10,12 @@
         width: 100%;
     }
     #fotoCraneo{
-        margin-top: 10px;
+        margin-top: 1.5vh;
     }
 }
 
 .seccionSinopsis{
     display: flex;
-    gap: 30px;
+    gap: 5vh;
 }
 

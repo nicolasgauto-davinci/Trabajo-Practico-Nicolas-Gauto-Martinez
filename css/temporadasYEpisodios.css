@@ -1,8 +1,8 @@
 .escenas {
     float: right;
-    height: 120px;
-    margin-left: 20px;
-    margin-top: 20px;
+    max-height: 25vh;
+    margin-left: 3vh;
+    margin-top: 3vh;
 }
 
 .trailer{
